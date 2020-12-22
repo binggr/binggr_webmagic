@@ -9,6 +9,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import us.codecraft.webmagic.scheduler.RedisScheduler;
 
+//注解依赖
 @EnableJpaRepositories
 @EnableScheduling
 @SpringBootApplication

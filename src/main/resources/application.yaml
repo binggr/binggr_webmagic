@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: article-crawler
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/article-crawler?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=CONVERT_TO_NULL
+    username: root
+    password: 123
+
+  jpa:
+    database: MySQL
+    show-sql: true
+
+  redis:
+    host: localhost
